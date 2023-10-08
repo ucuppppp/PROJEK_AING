@@ -32,7 +32,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link gap-2
-                     {{Request::is('dashboard/posts')?'active text-primary':'text-dark'}}" href="/dashboard/posts ">
+                     {{Request::is('dashboard/posts*')?'active text-primary':'text-dark'}}" href="/dashboard/posts ">
                         <i class="bi bi-file-text "></i>
                         My Posts
                     </a>
