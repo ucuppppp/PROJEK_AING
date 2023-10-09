@@ -14,7 +14,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory(10)->create();
+
+        User::create([
+        'name' => 'Raditya Yusuf A.',
+        'username' => 'radityaa',
+        'email' => '12@gmail.com',
+        'password' => bcrypt('12345')
+    ]);
+
+        User::factory(9)->create();
 
         // Category::factory(3)->create();
         Category::create([

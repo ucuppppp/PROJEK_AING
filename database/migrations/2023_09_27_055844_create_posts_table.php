@@ -17,6 +17,8 @@ return new class extends Migration
             $table->foreignId('category_id');
             $table->string('title');
             $table->string('slug');
+            // image
+            $table->string('image')->nullable();
             // excerpt : Cuplikan dari isi Blog singkat
             $table->text('excerpt');
             // body : isi lengkap dari blog

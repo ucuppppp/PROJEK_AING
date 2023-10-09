@@ -17,8 +17,8 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' => mt_rand(1,10),
-            'category_id' => mt_rand(1,7),
+            'user_id' => mt_rand(1, 10),
+            'category_id' => mt_rand(1, 7),
             'title' => $this->faker->sentence(),
             'slug' => $this->faker->slug(3),
             // excerpt : Cuplikan dari isi Blog singkat
