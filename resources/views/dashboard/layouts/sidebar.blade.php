@@ -40,6 +40,20 @@
             </ul>
 
 
+            <h6 class="sidebar-heading d-flec justify-cotent-between align-items-center px-3 mt-4 mb-1">
+                <span>Administrator</span>
+            </h6>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link gap-2
+                     {{Request::is('dashboard/categories*')?'active text-primary':'text-dark'}}"
+                        href="/dashboard/categories">
+                        <i class="bi bi-grid "></i>
+                        Post Categories
+                    </a>
+                </li>
+            </ul>
+
             <hr class="my-3">
 
             <ul class="nav flex-column mb-auto">

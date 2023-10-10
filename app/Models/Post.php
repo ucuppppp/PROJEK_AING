@@ -54,8 +54,10 @@ public function scopeFilter($query, array $filters)
     //     }
     //     return $title;
     // }
+
+
     public function getRouteKeyName()
-    {
+{
         return 'slug';
     }
 

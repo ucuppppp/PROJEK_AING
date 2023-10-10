@@ -1,7 +1,7 @@
 <style>
     .logo {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
 </style>
 
@@ -28,7 +28,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{($active === 'categories') ? 'active' : '' }}" href="/categories"><i
-                            class="bi bi-filter"></i> Categories</a>
+                            class="bi bi-grid"></i> Categories</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
