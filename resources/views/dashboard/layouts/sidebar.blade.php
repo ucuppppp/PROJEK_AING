@@ -39,6 +39,7 @@
                 </li>
             </ul>
 
+            @can('admin')
 
             <h6 class="sidebar-heading d-flec justify-cotent-between align-items-center px-3 mt-4 mb-1">
                 <span>Administrator</span>
@@ -53,6 +54,7 @@
                     </a>
                 </li>
             </ul>
+            @endcan
 
             <hr class="my-3">
 
